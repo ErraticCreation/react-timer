@@ -1,0 +1,14 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+*.log
+
+# Ignore installed npm and bower packages
+/node_modules
+/bower_components
+
+# Ignore Jetbrains WebStorm user specific config files
+.idea/workspace.xml
+.idea/watcherTasks.xml
+/npm-debug.log
