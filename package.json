@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev-mode": "webpack -w & nodemon server.js",
+    "monitor": "nodemon server.js",
     "build-monitor": "webpack -w",
     "build": "webpack",
     "test": "karma start"
@@ -39,6 +40,7 @@
     "mocha": "^2.4.5",
     "node-sass": "^3.4.2",
     "nodemon": "^1.10.2",
+    "react-addons-test-utils": "^0.14.7",
     "sass-loader": "^3.1.2",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
