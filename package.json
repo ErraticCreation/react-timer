@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-timer",
   "version": "1.0.0",
-  "description": "React Project Boilerplate",
+  "description": "React Timer Project",
   "main": "./app/app.jsx",
   "scripts": {
     "start": "node server.js",
